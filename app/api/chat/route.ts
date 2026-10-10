@@ -40,4 +40,4 @@ export async function POST(req: Request) {
     }
   }
   return NextResponse.json({ reply: "The AI is busy right now. Please try again in a minute." });
-}s
+}

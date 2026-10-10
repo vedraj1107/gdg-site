@@ -1,13 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 # GDG RBU Website
 
 Responsive website for Google Developer Groups, Ramdeobaba University, built from the provided Figma design.
 
-**Live:** https://your-app.vercel.app
+**Live:** https://gdg-site-ochre.vercel.app
 
 ## Features
-- Pixel-accurate Figma conversion, responsive (mobile, tablet, desktop)
+- Figma design converted to a responsive site (mobile, tablet, desktop)
 - Dark / Light mode
 - Smooth animations (Framer Motion)
 - AI chatbot powered by Gemini
@@ -18,7 +16,7 @@ Next.js, React, TypeScript, Tailwind CSS, Framer Motion, next-themes, Gemini API
 
 ## Setup
 ```bash
-git clone https://github.com/<username>/gdg-site.git
+git clone https://github.com/vedraj1107/gdg-site.git
 cd gdg-site
 npm install
 ```
@@ -32,7 +30,7 @@ npm run dev
 
 ## Structure
 ```
-app/         pages, layout, API route
-components/  Navbar, Hero, Events, Team, Faq, Footer, ChatWidget, ThemeToggle
+app/         pages, layout, chat API route
+components/  Navbar, Hero, Events, Team, Faq, Footer, ChatWidget, ThemeToggle, Logo
 public/      images
 ```
